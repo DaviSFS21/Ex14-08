@@ -11,9 +11,9 @@ public class Reajuste {
     }
 
     public static void main(String[] args) {
-        Reajuste novoSalario;
-        novoSalario = new Reajuste(970.0,30.2);
+        Reajuste NovoSalario;
+        NovoSalario = new Reajuste(970.0,30.2);
 
-        System.out.printf("Salário atual: %.2f%nReajuste: %.2f%nNovo salário: R$%.2f",novoSalario.SalarioAtual,novoSalario.PercentReajuste,novoSalario.SalarioNovo());
+        System.out.printf("Salário atual: %.2f%nReajuste: %.2f%nNovo salário: R$%.2f", NovoSalario.SalarioAtual, NovoSalario.PercentReajuste, NovoSalario.SalarioNovo());
     }
 }
