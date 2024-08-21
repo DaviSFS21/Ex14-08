@@ -17,6 +17,6 @@ public class MediaAluno {
     public static void main(String[] args) {
         MediaAluno mediaJoao = new MediaAluno(5.0, 7.0);
 
-        System.out.printf("Nota 1: %f%nNota 2: %f%n%nSituação: %s", mediaJoao.nota1, mediaJoao.nota2, mediaJoao.verifAprov(5.0, 7.0));
+        System.out.printf("Nota 1: %f%nNota 2: %f%n%nSituação: %s", mediaJoao.nota1, mediaJoao.nota2, mediaJoao.verifAprov(mediaJoao.nota1, mediaJoao.nota2));
     }
 }
