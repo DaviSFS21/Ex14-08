@@ -10,7 +10,12 @@ public class HoraExtra {
     }
 
     public double calcSalFinal() {
-        return (SalHora * 160) + (Math.max(0,(HrsTrab - 160))*SalHora*1.5);
+
+        if (HrsTrab > 160) {
+            return (SalHora * 160) + (HrsTrab - 160) * SalHora * 1.5;
+        } else {
+            return (SalHora * 160);
+        }
     }
 
     public static void main(String[] args) {
