@@ -33,3 +33,13 @@ public class HoraExtra {
         sc.close();
     }
 }
+
+/*
+| Linha | Ação                                               | HrsTrab | SalHora | calcSalFinal | Saída                    |
+|-------|----------------------------------------------------|---------|---------|--------------|--------------------------|
+|  18   | Leitura do valor de `SalHora`                      |    -    |  50.0   |      -       |    -                     |
+|  20   | Leitura do valor de `HrsTrab`                      |   170   |    -    |      -       |    -                     |
+|  22   | Criação do objeto `HoraExtra`                      |   170   |  50.0   |      -       |    -                     |
+|  24   | Avaliação da condição `HrsTrab > 160`              |   170   |  50.0   |      -       | O salário total do       |
+|  24   | Cálculo do salário final                           |   170   |  50.0   |   8750.0     | funcionário é: R$8750.00 |
+*/

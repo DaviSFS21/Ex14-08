@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class PositivoOuNegativo {
     public int x;
 
@@ -6,12 +8,17 @@ public class PositivoOuNegativo {
     }
 
     public static void main(String[] args) {
-        PositivoOuNegativo numero = new PositivoOuNegativo(14);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite um valor: ");
+        int x = sc.nextInt();
 
+        PositivoOuNegativo numero = new PositivoOuNegativo(x);
         if (numero.x < 0) {
             System.out.println("NEGATIVO");
         } else {
             System.out.println("POSITIVO");
         }
+
+        sc.close();
     }
 }

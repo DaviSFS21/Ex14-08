@@ -27,3 +27,12 @@ public class Eleitor {
         sc.close();
     }
 }
+
+/*
+| Linha | Ação                                       | anoAtual | anoEleitor | Saída               |
+|-------|--------------------------------------------|----------|------------|---------------------|
+|   6   | Leitura do valor de `anoAtual`             | 2024     |     -      |     -               |
+|   8   | Leitura do valor de `anoEleitor`           |    -     |   2007     |     -               |
+|  10   | Criação do objeto `Eleitor`                | 2024     |   2007     |     -               |
+|  12   | Condição `(anoAtual - anoEleitor) >= 16`   | 2024     |   2007     | Pode votar!         |
+*/

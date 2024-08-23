@@ -19,12 +19,12 @@ public class GastosTrim {
 }
 
 /*
-| Linha | Ação                                            | `Cube.jan` | `Cube.fev` | `Cube.mar` | somarGastos() | somarGastos/3 | Saída                                                                                                    |
-|-------|-------------------------------------------------|------------|------------|------------|---------------|---------------|---------------------------------------------------------------------------------------------------------|
-| 10    | Criação do objeto `Cube`                        | `20000.0`  | `23000.0`  | `17000.0`  | -             | -             | Gastos em janeiro: R$20000.00                                                                           |
-| 13    | Impressão dos valores de `jan`, `fev`, e `mar`  | `20000.0`  | `23000.0`  | `17000.0`  | -             | -             | Gastos em fevereiro: R$23000.00                                                                         |
-| 13    | Chamada de `somarGastos` e cálculo da soma      | `20000.0`  | `23000.0`  | `17000.0`  | `60000.0`     | -             | Gastos em março: R$17000.00                                                                             |
-| 13    | Impressão da soma dos gastos no trimestre       | `20000.0`  | `23000.0`  | `17000.0`  | `60000.0`     | -             |                                                                                                         |
-| 13    | Cálculo da média dos gastos                     | `20000.0`  | `23000.0`  | `17000.0`  | `60000.0`     | `20000.0`     | Gastos no trimestre: R$60000.00                                                                         |
-| 13    | Impressão da média dos gastos                   | `20000.0`  | `23000.0`  | `17000.0`  | `60000.0`     | `20000.0`     | Média de gastos: R$20000.00                                                                             |
+| Linha | Ação                                            | `Cube.jan` | `Cube.fev` | `Cube.mar` | somarGastos() | somarGastos/3 | Saída                             |
+|-------|-------------------------------------------------|------------|------------|------------|---------------|---------------|-----------------------------------|
+| 10    | Criação do objeto `Cube`                        | `20000.0`  | `23000.0`  | `17000.0`  | -             | -             | Gastos em janeiro: R$20000.00     |
+| 13    | Impressão dos valores de `jan`, `fev`, e `mar`  | `20000.0`  | `23000.0`  | `17000.0`  | -             | -             | Gastos em fevereiro: R$23000.00   |
+| 13    | Chamada de `somarGastos` e cálculo da soma      | `20000.0`  | `23000.0`  | `17000.0`  | `60000.0`     | -             | Gastos em março: R$17000.00       |
+| 13    | Impressão da soma dos gastos no trimestre       | `20000.0`  | `23000.0`  | `17000.0`  | `60000.0`     | -             |                                   |
+| 13    | Cálculo da média dos gastos                     | `20000.0`  | `23000.0`  | `17000.0`  | `60000.0`     | `20000.0`     | Gastos no trimestre: R$60000.00   |
+| 13    | Impressão da média dos gastos                   | `20000.0`  | `23000.0`  | `17000.0`  | `60000.0`     | `20000.0`     | Média de gastos: R$20000.00       |
 */

@@ -24,5 +24,17 @@ public class Idade {
         Idade idade = new Idade(dias, meses, anos);
 
         System.out.printf("A sua idade em dias é de: %d",idade.idadeEmDias());
+
+        sc.close();
     }
 }
+
+/*
+| Linha | Ação                                    | dias | meses | anos | idadeEmDias | Saída                             |
+|-------|-----------------------------------------|------|-------|------|-------------|-----------------------------------|
+|  14   | Leitura do valor de `anos`              |   -  |   -   |  25  |      -      |    -                              |
+|  16   | Leitura do valor de `meses`             |   -  |   6   |   -  |      -      |    -                              |
+|  18   | Leitura do valor de `dias`              |  15  |   -   |   -  |      -      |    -                              |
+|  19   | Criação do objeto `Idade`               |  15  |   6   |  25  |      -      |    -                              |
+|  21   | Cálculo da idade em dias                |  15  |   6   |  25  |   9320      | A sua idade em dias é de: 9320    |
+*/

@@ -23,5 +23,21 @@ public class MediaFinal {
         double mediaFinal = x * 0.5 + y * (API * 0.5) + X + (SUB * 0.2);
 
         System.out.println("Media Final: " + Math.min(10,mediaFinal));
+
+        sc.close();
     }
 }
+
+/*
+| Linha | Ação                                            | P1  | E1  | E2   | API | SUB | X   | mediaFinal | Saída              |
+|-------|-------------------------------------------------|-----|-----|------|-----|-----|-----|------------|--------------------|
+|  11   | Leitura do valor de `P1`                        | 4.0 |  -  |  -   |  -  |  -  |  -  |  -         |       -            |
+|  13   | Leitura do valor de `E1`                        | 4.0 | 9.0 |  -   |  -  |  -  |  -  |  -         |       -            |
+|  15   | Leitura do valor de `E2`                        | 4.0 | 9.0 | 10.0 |  -  |  -  |  -  |  -         |       -            |
+|  17   | Leitura do valor de `API`                       | 4.0 | 9.0 | 10.0 | 9.0 |  -  |  -  |  -         |       -            |
+|  19   | Leitura do valor de `SUB`                       | 4.0 | 9.0 | 10.0 | 9.0 | 4.0 |  -  |  -         |       -            |
+|  21   | Leitura do valor de `X`                         | 4.0 | 9.0 | 10.0 | 9.0 | 4.0 | 3.0 |  -         |       -            |
+|  23   | Cálculo de `x`                                  | 4.0 | 9.0 | 10.0 | 9.0 | 4.0 | 3.0 |  -         |       -            |
+|  24   | Cálculo de `y`                                  | 4.0 | 9.0 | 10.0 | 9.0 | 4.0 | 3.0 |  -         |       -            |
+|  26   | Cálculo de `mediaFinal`                         | 4.0 | 9.0 | 10.0 | 9.0 | 0.0 | 1.0 | 8.1        | Media Final: 8.1   |
+*/
